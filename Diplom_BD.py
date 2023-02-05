@@ -25,7 +25,7 @@ password = list_base[1]
 database = list_base[2]
 
 create_tables(login,password,database)
-
+print(password)
 class VKApi():
     def __init__(self, base_url: str = "https://api.vk.com/"):
         self.token_vk = token_vk
